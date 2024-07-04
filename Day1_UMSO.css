@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.logo img {
+    width: 100px;
+    height: 50px;
+}
+.navigation-bar {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #323030;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.auth-buttons .signup {
+    background-color: #080808;
+    color:white;
+}
+.auth-buttons .signup img{
+    width : 20px;
+    height: 15px;
+}
+.hero {
+    text-align: center;
+    padding: 30px;
+    margin:auto;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 5px;
+    line-height: 1.2;
+    color:#fff;
+    margin-top: 0px;
+}
+
+.hero .highlight {
+    color: #2041e7; /* Adjust this color as needed */
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #b0b0b0;
+}
+/*--.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #000;
+    margin: 0;
+}
+.input-container {
+    display: flex;
+    align-items: end;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    width:475px;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #7a3df3;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+button:hover {
+    background-color: #4c25aa;
+}*/
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+    margin: 0;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px blueviolet;;
+    padding: 5px;
+    width: 475px;
+    border: #4c25aa solid;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+input[type="text"]::placeholder {
+    color: #888888;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #7a3df3;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #4c25aa;
+}
+.review {
+    background-color: black;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin: 0;
+}
+.review-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.review-content {
+    display: flex;
+    align-items: center;
+}
+
+.review-content span {
+    margin-right: 10px;
+}
+
+.stars span {
+    color: #00bfa5;
+}
+
+.trustpilot-badge img {
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.made-with {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.made-with img {
+    width: 55px;
+    height: 25px;
+    margin-left: 10px;
+}
